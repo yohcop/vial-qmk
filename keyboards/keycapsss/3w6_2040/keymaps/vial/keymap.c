@@ -98,8 +98,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 [_LAYER4] = LAYOUT_split_3x5_3(
     DF(0),          DF(1),          KVM_UP,         NK_ON,          NK_OFF,                 KC_BTN1,        KC_BTN2,        KC_BSPC,        KC_DEL,         KC_BTN3,
-    KC_NO,          KC_NO,          KVM_DOWN,       KVM_1,          KVM_2,                  KC_LEFT,        KC_DOWN,        KC_UP,          KC_RGHT,        KC_WH_U,
-    KC_BSLS,        KC_GRV,         KC_QUOT,        KC_DQUO,        KC_NO,                  KC_HOME,        KC_PGDN,        KC_PGUP,        KC_END,         KC_WH_D,
+    KVM_DOWN,       OSM(MOD_LGUI),  OSM(MOD_LALT),  OSM(MOD_LCTL),  KVM_1,                  KC_LEFT,        KC_DOWN,        KC_UP,          KC_RGHT,        KC_WH_U,
+    KC_BSLS,        KC_GRV,         KC_QUOT,        KC_DQUO,        KVM_2,                  KC_HOME,        KC_PGDN,        KC_PGUP,        KC_END,         KC_WH_D,
                                     KC_NO,          KC_NO,          KC_TRNS,                KC_NO,          KC_NO,          KC_NO)
 
     // clang-format on
